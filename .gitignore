@@ -1,7 +1,45 @@
-# Compiled binaries
-a.out
-*.out
-*.o
+# # Compiled files
+# *.out
+# *.o
+# *.exe
 
-# Editor/temp files
-*.swp
+# # Object files
+# *.obj
+
+# # Debug files
+# *.gdb
+# *.dSYM/
+
+# # Temporary files
+# *.log
+# *.tmp
+# *.swp
+# *~
+
+# # VS Code
+# .vscode/
+
+# # Build folders
+# build/
+# bin/
+
+# # OS files
+# .DS_Store
+# Thumbs.db
+
+
+# Ignore all executables (no extension)
+*
+
+# But KEEP source files
+!*.c
+!*.h
+!*.md
+!.gitignore
+
+# Ignore VS Code
+.vscode/
+
+# Ignore build artifacts
+*.o
+*.out
