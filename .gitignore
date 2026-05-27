@@ -28,18 +28,18 @@
 # Thumbs.db
 
 
-# Ignore all executables (no extension)
+# Ignore everything
 *
 
-# But KEEP source files
+# Allow folders
+!*/
+
+# Allow source files everywhere
 !*.c
 !*.h
 !*.md
 !.gitignore
 
-# Ignore VS Code
-.vscode/
-
-# Ignore build artifacts
-*.o
+# Ignore binaries
 *.out
+*.o
