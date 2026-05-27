@@ -1,0 +1,7 @@
+# Compiled binaries
+a.out
+*.out
+*.o
+
+# Editor/temp files
+*.swp
