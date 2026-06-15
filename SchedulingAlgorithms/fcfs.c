@@ -5,7 +5,7 @@ int main() {
     int n = 3;
     int bursttime[] = {5, 3, 2};
 
-    int WaitTime[3], turnOverTime[3];
+    int WaitTime[3], turnAroundTime[3];
 
     WaitTime[0] = 0;
 
@@ -15,11 +15,11 @@ int main() {
     }
 
     for (int i = 0; i < n; i++) {
-        turnOverTime[i] = WaitTime[i] + bursttime[i];\
+        turnAroundTime[i] = WaitTime[i] + bursttime[i];
 
     }
     for (int i = 0; i < n; i++) {
-        printf("Process%d WaitTime=%d TurnOverTime=%d\n", i+1, WaitTime[i], turnOverTime[i]);
+        printf("Process%d WaitTime=%d TurnOverTime=%d\n", i+1, WaitTime[i], turnAroundTime[i]);
     }
 
     return 0;
